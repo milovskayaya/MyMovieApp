@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top 5 Thriller Movies"
+            android:textStyle="bold"
+            android:textColor="#FF0040"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1. The Silence of the Lambs (1991)"
+            android:layout_below="@id/title"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/t1i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/t1"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/silence"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/t1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t1"
+            android:layout_toRightOf="@id/t1i"
+            android:layout_alignBottom="@id/t1i"
+            android:layout_marginLeft="10dp"
+            android:text="A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.\nDirector: Jonathan Demme\nStars: Jodie Foster, Anthony Hopkins, Lawrence A. Bonney"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2. Leon: The Professional (1994)"
+            android:layout_below="@id/t1i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/t2i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/t2"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/leon"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/t2t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t2"
+            android:layout_toRightOf="@id/t2i"
+            android:layout_alignBottom="@id/t2i"
+            android:layout_marginLeft="10dp"
+            android:text="Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. Léon and Mathilda form an unusual relationship, as she becomes his protégée and learns the assassin's trade.\nDirector: Luc Besson\nStars: Jean Reno, Gary Oldman, Natalie Portman "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3. The Bourne Ultimatum (2007)"
+            android:layout_below="@id/t2i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/t3i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/t3"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ultimatum"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/t3t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t3"
+            android:layout_toRightOf="@id/t3i"
+            android:layout_alignBottom="@id/t3i"
+            android:layout_marginLeft="10dp"
+            android:text="Jason Bourne dodges a ruthless C.I.A. official and his Agents from a new assassination program while searching for the origins of his life as a trained killer.\nDirector: Paul Greengrass\nStars: Matt Damon, Edgar Ramírez, Joan Allen"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_below="@id/t3i"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="4. Black Swan (2010)"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/t4i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/t4"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/black_swan"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/t4t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t4"
+            android:layout_toRightOf="@id/t4i"
+            android:layout_alignBottom="@id/t4i"
+            android:layout_marginLeft="10dp"
+            android:text="A committed dancer struggles to maintain her sanity after winning the lead role in a production of Tchaikovsky's 'Swan Lake'.\nDirector: Darren Aronofsky\nStars: Natalie Portman, Mila Kunis, Vincent Cassel "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5. Heat (1995)"
+            android:layout_below="@id/t4i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/t5i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/t5"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/heat"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/t5t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/t5"
+            android:layout_toRightOf="@id/t5i"
+            android:layout_alignBottom="@id/t5i"
+            android:layout_marginLeft="10dp"
+            android:text="A group of professional bank robbers start to feel the heat from police when they unknowingly leave a clue at their latest heist.\nDirector: Michael Mann\nStars: Al Pacino, Robert De Niro, Val Kilmer "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:layout_marginBottom="30dp"/>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top 5 Action Movies"
+            android:textStyle="bold"
+            android:textColor="#FF0040"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/ac1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1. John Wick: Chapter 2 (2017)"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp" />
+        <ImageView
+            android:id="@+id/ac1i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/ac1"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/wick2"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/ac1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ac1"
+            android:layout_toRightOf="@id/ac1i"
+            android:layout_alignBottom="@id/ac1i"
+            android:layout_marginLeft="10dp"
+            android:text="After returning to the criminal underworld to repay a debt, John Wick discovers that a large bounty has been put on his life.\nDirector: Chad Stahelski \nStars: Keanu Reeves, Riccardo Scamarcio, Ian McShane"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/ac2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2. Logan (2017)"
+            android:layout_below="@id/ac1i"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/ac2i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/ac2"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/logan"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/ac2t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ac2"
+            android:layout_toRightOf="@id/ac2i"
+            android:layout_alignBottom="@id/ac2i"
+            android:layout_marginLeft="10dp"
+            android:text="In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety.\nDirector: James Mangold \nStars: Hugh Jackman, Patrick Stewart, Dafne Keen"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/ac3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3. Inception (2010)"
+            android:layout_below="@id/ac2i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp" />
+        <ImageView
+            android:id="@+id/ac3i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/ac3"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/inception"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/ac3t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ac3"
+            android:layout_toRightOf="@id/ac3i"
+            android:layout_alignBottom="@id/ac3i"
+            android:layout_marginLeft="10dp"
+            android:text="A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.\nDirector: Christopher Nolan\nStars: Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/ac4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="4. Gladiator (2000)"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/ac3i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp" />
+        <ImageView
+            android:id="@+id/ac4i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/ac4"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/gladiator"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/ac4t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ac4"
+            android:layout_toRightOf="@id/ac4i"
+            android:layout_alignBottom="@id/ac4i"
+            android:layout_marginLeft="10dp"
+            android:text="A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.\nDirector: Ridley Scott\nStars: Russell Crowe, Joaquin Phoenix, Connie Nielsen"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/ac5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5. V for Vendetta (2005)"
+            android:layout_below="@id/ac4i"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp" />
+        <ImageView
+            android:id="@+id/ac5i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/ac5"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/vendetta"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/ac5t"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/ac5"
+            android:layout_toRightOf="@id/ac5i"
+            android:layout_alignBottom="@id/ac5i"
+            android:layout_marginLeft="10dp"
+            android:text="In a future British tyranny, a shadowy freedom fighter, known only by the alias of V, plots to overthrow it with the help of a young woman.\nDirector: James McTeigue\nStars: Hugo Weaving, Natalie Portman, Rupert Graves"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

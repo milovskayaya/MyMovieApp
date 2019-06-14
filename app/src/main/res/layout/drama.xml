@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top 5 Drama Movies"
+            android:textStyle="bold"
+            android:textColor="#FF0040"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/d1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1. Moonlight (2016)"
+            android:layout_below="@id/title"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/d1i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/d1"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/moonlight"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/d1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/d1"
+            android:layout_toRightOf="@id/d1i"
+            android:layout_alignBottom="@id/d1i"
+            android:layout_marginLeft="10dp"
+            android:text="A chronicle of the childhood, adolescence and burgeoning adulthood of a young, African-American, gay man growing up in a rough neighborhood of Miami.\nDirector: Barry Jenkins\nStars: Mahershala Ali, Naomie Harris, Trevante Rhodes"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/d2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2. The Godfather (1972)"
+            android:layout_below="@id/d1i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/d2i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/d2"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/godfather"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/d2t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/d2"
+            android:layout_toRightOf="@id/d2i"
+            android:layout_alignBottom="@id/d2i"
+            android:layout_marginLeft="10dp"
+            android:text="The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.\nDirector: Francis Ford Coppola\nStars: Marlon Brando, Al Pacino, James Caan "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/d3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3. 12 Years a Slave (2013)"
+            android:layout_below="@id/d2i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp" />
+        <ImageView
+            android:id="@+id/d3i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/d3"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/slave"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/d3t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/d3"
+            android:layout_toRightOf="@id/d3i"
+            android:layout_alignBottom="@id/d3i"
+            android:layout_marginLeft="10dp"
+            android:text="In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.\nDirector: Steve McQueen\nStars: Chiwetel Ejiofor, Michael Kenneth Williams, Michael Fassbender"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/d4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="4. Rocky (1976)"
+            android:layout_below="@id/d3i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/d4i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/d4"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/rocky"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/d4t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/d4"
+            android:layout_toRightOf="@id/d4i"
+            android:layout_alignBottom="@id/d4i"
+            android:layout_marginLeft="10dp"
+            android:text="A small-time boxer gets a supremely rare chance to fight a heavy-weight champion in a bout in which he strives to go the distance for his self-respect.\nDirector: John G. Avildsen\nStars: Sylvester Stallone, Talia Shire, Burt Young"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/d5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5. La La Land (2016)"
+            android:layout_below="@id/d4i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+        android:id="@+id/d5i"
+        android:layout_width="80dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/d5"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/lalaland"
+        android:layout_centerVertical="true"
+        android:gravity="center" />
+        <TextView
+            android:id="@+id/d5t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/d5"
+            android:layout_toRightOf="@id/d5i"
+            android:layout_alignBottom="@id/d5i"
+            android:layout_marginLeft="10dp"
+            android:text="While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.\nDirector: Damien Chazelle\nStars: Ryan Gosling, Emma Stone, Rosemarie DeWitt"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:layout_marginBottom="30dp"/>
+
+    </RelativeLayout>
+</ScrollView>

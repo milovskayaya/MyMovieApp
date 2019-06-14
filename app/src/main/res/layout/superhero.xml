@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top 5 Superhero Movies"
+            android:textStyle="bold"
+            android:textColor="#FF0040"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/sh1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1. The Dark Knight (2008)"
+            android:layout_below="@id/title"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/sh1i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/sh1"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/dark_knight"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/sh1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sh1"
+            android:layout_toRightOf="@id/sh1i"
+            android:layout_alignBottom="@id/sh1i"
+            android:layout_marginLeft="10dp"
+            android:text="When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.\nDirector: Christopher Nolan\nStars: Christian Bale, Heath Ledger, Aaron Eckhart "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/sh2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2. Avengers: Endgame"
+            android:layout_below="@id/sh1i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/sh2i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/sh2"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/avengers"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/sh2t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sh2"
+            android:layout_toRightOf="@id/sh2i"
+            android:layout_alignBottom="@id/sh2i"
+            android:layout_marginLeft="10dp"
+            android:text="After the devastating events of Мстители: Война бесконечности (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe.\nDirectors: Anthony Russo, Joe Russo\nStars: Robert Downey Jr., Chris Evans, Mark Ruffalo "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/sh3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3. Guardians Of The Galaxy (2014)"
+            android:layout_below="@id/sh2i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/sh3i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/sh3"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/guardians"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/sh3t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sh3"
+            android:layout_toRightOf="@id/sh3i"
+            android:layout_alignBottom="@id/sh3i"
+            android:layout_marginLeft="10dp"
+            android:text="A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.\nDirector: James Gunn\nStars: Chris Pratt, Vin Diesel, Bradley Cooper"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/sh4"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_below="@id/sh3i"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="4. Doctor Strange (2016)"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/sh4i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/sh4"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/doctor_strange"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/sh4t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sh4"
+            android:layout_toRightOf="@id/sh4i"
+            android:layout_alignBottom="@id/sh4i"
+            android:layout_marginLeft="10dp"
+            android:text="While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.\nDirector: Scott Derrickson\nStars: Benedict Cumberbatch, Chiwetel Ejiofor, Rachel McAdams"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/sh5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5. Spider-Man: Far from Home (2019)"
+            android:layout_below="@id/sh4i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/sh5i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/sh5"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/spiderman"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/sh5t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sh5"
+            android:layout_toRightOf="@id/sh5i"
+            android:layout_alignBottom="@id/sh5i"
+            android:layout_marginLeft="10dp"
+            android:text=" Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.\nDirector: Jon Watts\nStars: Tom Holland, Zendaya, Jake Gyllenhaal "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:layout_marginBottom="30dp"/>
+
+
+    </RelativeLayout>
+</ScrollView>

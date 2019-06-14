@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top 5 Comedy Movies"
+            android:textStyle="bold"
+            android:textColor="#FF0040"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/co1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1. Worst Kind of People (2013)"
+            android:layout_below="@id/title"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/co1i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/co1"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/worst_kind_of_people"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/co1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/co1"
+            android:layout_toRightOf="@id/co1i"
+            android:layout_alignBottom="@id/co1i"
+            android:layout_marginLeft="10dp"
+            android:text="What happens when four despicable idiots decide to rob small-time payday lenders?The Worst Kind of People is film that blends a gritty Guy Ritchie look with a Judd Appatow type humor.\nDirectors: Ezekiel Richter, Jay Warren\nStars: Doug Chavis, Wade Everett, George Tsakiridis"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/co2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2. Why him? (2016)"
+            android:layout_below="@id/co1i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/co2i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/co2"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/why_him"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/co2t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/co2"
+            android:layout_toRightOf="@id/co2i"
+            android:layout_alignBottom="@id/co2i"
+            android:layout_marginLeft="10dp"
+            android:text="A holiday gathering threatens to go off the rails when Ned Fleming realizes that his daughter's Silicon Valley millionaire boyfriend is about to pop the question.\nDirector: John Hamburg\nStars: Zoey Deutch, James Franco, Tangie Ambrose"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/co3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3. Superbad (2007)"
+            android:layout_below="@id/co2i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/co3i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/co3"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/superbad"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/co3t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/co3"
+            android:layout_toRightOf="@id/co3i"
+            android:layout_alignBottom="@id/co3i"
+            android:layout_marginLeft="10dp"
+            android:text="Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.\nDirector: Greg Mottola\nStars: Michael Cera, Jonah Hill, Christopher Mintz-Plasse "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/co4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/co3i"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="4. Dumb and Dumber (1994)"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/co4i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/co4"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/dumb"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/co4t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/co4"
+            android:layout_toRightOf="@id/co4i"
+            android:layout_alignBottom="@id/co4i"
+            android:layout_marginLeft="10dp"
+            android:text="The cross-country adventures of 2 good-hearted but incredibly stupid friends.\nDirectors: Peter Farrelly, Bobby Farrelly (uncredited)\nStars: Jim Carrey, Jeff Daniels, Lauren Holly "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/co5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Once Upon a Time in Hollywood (2019)"
+            android:layout_below="@id/co4i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/co5i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/co5"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/once_upon_a_time"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/co5t"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/co5"
+            android:layout_toRightOf="@id/co5i"
+            android:layout_alignBottom="@id/co5i"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="A faded television actor and his stunt double strive to achieve fame and success in the film industry during the final years of Hollywood's Golden Age in 1969 Los Angeles.\nDirector: Quentin Tarantino\nStars: Leonardo DiCaprio, Brad Pitt, Margot Robbie "
+            android:textColor="#000"
+            android:textSize="15sp"/>
+
+
+    </RelativeLayout>
+</ScrollView>

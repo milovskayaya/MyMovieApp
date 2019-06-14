@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top 5 Crime Movies"
+            android:textStyle="bold"
+            android:textColor="#FF0040"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/cr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1. Infernal Affairs (2002)"
+            android:layout_below="@id/title"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/cr1i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/cr1"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/infernal_affairs"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/cr1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cr1"
+            android:layout_toRightOf="@id/cr1i"
+            android:layout_alignBottom="@id/cr1i"
+            android:layout_marginLeft="10dp"
+            android:text="A story between a mole in the police department and an undercover cop. Their objectives are the same: to find out who is the mole, and who is the cop.\nDirectors: Andrew Lau Wai-Keung (as Andrew Lau), Alan Mak\nStars: Andy Lau, Tony Chiu-Wai Leung, Anthony Chau-Sang Wong"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/cr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2. A History Of Violence (2005)"
+            android:layout_below="@id/cr1i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/cr2i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/cr2"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/history_of_violence"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/cr2t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cr2"
+            android:layout_toRightOf="@id/cr2i"
+            android:layout_alignBottom="@id/cr2i"
+            android:layout_marginLeft="10dp"
+            android:text="A mild-mannered man becomes a local hero through an act of violence, which sets off repercussions that will shake his family to its very core.\nDirector: David Cronenberg\nStars: Viggo Mortensen, Maria Bello, Ed Harris "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/cr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3. Sicario (2015)"
+            android:layout_below="@id/cr2i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/cr3i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/cr3"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/sicario"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/cr3t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cr3"
+            android:layout_toRightOf="@id/cr3i"
+            android:layout_alignBottom="@id/cr3i"
+            android:layout_marginLeft="10dp"
+            android:text="An idealistic FBI agent is enlisted by a government task force to aid in the escalating war against drugs at the border area between the U.S. and Mexico.\nDirector: Denis Villeneuve\nStars: Emily Blunt, Josh Brolin, Benicio Del Toro "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/cr4"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_below="@id/cr3i"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="4. Good time (2017)"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/cr4i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/cr4"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/good_time"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/cr4t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cr4"
+            android:layout_toRightOf="@id/cr4i"
+            android:layout_alignBottom="@id/cr4i"
+            android:layout_marginLeft="10dp"
+            android:text="After a botched bank robbery lands his younger brother in prison, Connie Nikas embarks on a twisted odyssey through New York City's underworld to get his brother Nick out of jail.\nDirectors: Benny Safdie, Josh Safdie\nStars: Robert Pattinson, Benny Safdie, Jennifer Jason Leigh "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/cr5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5. Brick (2005)"
+            android:layout_below="@id/cr4i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/cr5i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/cr5"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/brick"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/cr5t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cr5"
+            android:layout_toRightOf="@id/cr5i"
+            android:layout_alignBottom="@id/cr5i"
+            android:layout_marginLeft="10dp"
+            android:text="A teenage loner pushes his way into the underworld of a high school crime ring to investigate the disappearance of his ex-girlfriend.\nDirector: Rian Johnson\nStars: Joseph Gordon-Levitt, Lukas Haas, Emilie de Ravin "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:layout_marginBottom="30dp"/>
+
+
+    </RelativeLayout>
+</ScrollView>

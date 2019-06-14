@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top 5 Horror Movies"
+            android:textStyle="bold"
+            android:textColor="#FF0040"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1. Sinister (2012)"
+            android:layout_below="@id/title"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/h1i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/h1"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/sinister"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/h1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/h1"
+            android:layout_toRightOf="@id/h1i"
+            android:layout_alignBottom="@id/h1i"
+            android:layout_marginLeft="10dp"
+            android:text="Washed-up true-crime writer Ellison Oswalt finds a box of super 8 home movies that suggest the murder he is currently researching is the work of a serial killer whose work dates back to the 1960s.\nDirector: Scott Derrickson\nStars: Ethan Hawke, Juliet Rylance, James Ransone"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2. Oculus (2013)"
+            android:layout_below="@id/h1i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/h2i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/h2"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/oculus"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/h2t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/h2"
+            android:layout_toRightOf="@id/h2i"
+            android:layout_alignBottom="@id/h2i"
+            android:layout_marginLeft="10dp"
+            android:text="A woman tries to exonerate her brother, who was convicted of murder, by proving that the crime was committed by a supernatural phenomenon.\nDirector: Mike Flanagan\nStars: Karen Gillan, Brenton Thwaites, Katee Sackhoff"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/h3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3. The Exorcist (1973)"
+            android:layout_below="@id/h2i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/h3i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/h3"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/exorcist"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/h3t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/h3"
+            android:layout_toRightOf="@id/h3i"
+            android:layout_alignBottom="@id/h3i"
+            android:layout_marginLeft="10dp"
+            android:text="When a teenage girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her daughter.\nDirector: William Friedkin\nStars: Ellen Burstyn, Max von Sydow, Linda Blair "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/h4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/h3i"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="4. Split (2016)"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/h4i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/h4"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/split"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/h4t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/h4"
+            android:layout_toRightOf="@id/h4i"
+            android:layout_alignBottom="@id/h4i"
+            android:layout_marginLeft="10dp"
+            android:text="Three girls are kidnapped by a man with a diagnosed 23 distinct personalities. They must try to escape before the apparent emergence of a frightful new 24th.\nDirector: M. Night Shyamalan\nStars: James McAvoy, Anya Taylor-Joy, Haley Lu Richardson"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/h5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5. Us (2019)"
+            android:layout_below="@id/h4i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/h5i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/h5"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/us"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/h5t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/h5"
+            android:layout_toRightOf="@id/h5i"
+            android:layout_alignBottom="@id/h5i"
+            android:layout_marginLeft="10dp"
+            android:text="A family's serene beach vacation turns to chaos when their doppelgängers appear and begin to terrorize them.\nDirector: Jordan Peele\nStars: Lupita Nyong'o, Winston Duke, Elisabeth Moss "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:layout_marginBottom="30dp"/>
+
+    </RelativeLayout>
+</ScrollView>

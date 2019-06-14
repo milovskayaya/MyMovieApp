@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top 5 Sci-Fi Movies"
+            android:textStyle="bold"
+            android:textColor="#FF0040"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/sf1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1. Children Of Men (2006)"
+            android:layout_below="@id/title"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/sf1i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/sf1"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/children_of_men"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/sf1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sf1"
+            android:layout_toRightOf="@id/sf1i"
+            android:layout_alignBottom="@id/sf1i"
+            android:layout_marginLeft="10dp"
+            android:text="In 2027, in a chaotic world in which women have become somehow infertile, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea.\nDirector: Alfonso Cuarón\nStars: Julianne Moore, Clive Owen, Chiwetel Ejiofor "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/sf2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2. Her (2013)"
+            android:layout_below="@id/sf1i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/sf2i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/sf2"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/her"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/sf2t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sf2"
+            android:layout_toRightOf="@id/sf2i"
+            android:layout_alignBottom="@id/sf2i"
+            android:layout_marginLeft="10dp"
+            android:text="In a near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.\nDirector: Spike Jonze\nStars: Joaquin Phoenix, Amy Adams, Scarlett Johansson"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/sf3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3. Sunshine (2007)"
+            android:layout_below="@id/sf2i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/sf3i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/sf3"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/sunshine"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/sf3t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sf3"
+            android:layout_toRightOf="@id/sf3i"
+            android:layout_alignBottom="@id/sf3i"
+            android:layout_marginLeft="10dp"
+            android:text="A team of international astronauts are sent on a dangerous mission to reignite the dying Sun with a nuclear fission bomb in 2057.\nDirector: Danny Boyle\nStars: Cillian Murphy, Rose Byrne, Chris Evans"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/sf4"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_below="@id/sf3i"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="4. Primer (2004)"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/sf4i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/sf4"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/primer"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/sf4t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sf4"
+            android:layout_toRightOf="@id/sf4i"
+            android:layout_alignBottom="@id/sf4i"
+            android:layout_marginLeft="10dp"
+            android:text="Four friends/fledgling entrepreneurs, knowing that there's something bigger and more innovative than the different error-checking devices they've built, wrestle over their new invention.\nDirector: Shane Carruth\nStars: Shane Carruth, David Sullivan, Casey Gooden "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/sf5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5. Interstellar (2014)"
+            android:layout_below="@id/sf4i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/sf5i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/sf5"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/interstellar"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/sf5t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sf5"
+            android:layout_toRightOf="@id/sf5i"
+            android:layout_alignBottom="@id/sf5i"
+            android:layout_marginLeft="10dp"
+            android:text="A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.\nDirector: Christopher Nolan\nStars: Matthew McConaughey, Anne Hathaway, Jessica Chastain"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:layout_marginBottom="30dp"/>
+
+    </RelativeLayout>
+</ScrollView>

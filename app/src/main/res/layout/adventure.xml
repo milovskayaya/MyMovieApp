@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top 5 Adventure Movies"
+            android:textStyle="bold"
+            android:textColor="#FF0040"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/ad1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1. The Runaways (II) (2019)"
+            android:layout_below="@id/title"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/ad1i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/ad1"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/runaways"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/ad1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ad1"
+            android:layout_toRightOf="@id/ad1i"
+            android:layout_alignBottom="@id/ad1i"
+            android:layout_marginLeft="10dp"
+            android:text="After their home life is turned upside down three children and the family's donkeys escape across the backbone of Northern England, confronting both the harsh landscapes.\nDirector: Richard Heap \nStars: Molly Windsor, Mark Addy, Tara Fitzgerald  "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/ad2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2. Tournament (2018)"
+            android:layout_below="@id/ad1i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/ad2i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/ad2"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/tournament"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/ad2t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ad2"
+            android:layout_toRightOf="@id/ad2i"
+            android:layout_alignBottom="@id/ad2i"
+            android:layout_marginLeft="10dp"
+            android:text="A group of unlikely friends get together for an epic trading card tournament only to have a beautiful outsider turn everything on its head. \nDirector: Patricia DiSalvo Viayra \nStars: Ricardo Chavira, Doua Moua, Arielle Hader"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/ad3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3. The Revenant (2015)"
+            android:layout_below="@id/ad2i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/ad3i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/ad3"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/revenant"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/ad3t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ad3"
+            android:layout_toRightOf="@id/ad3i"
+            android:layout_alignBottom="@id/ad3i"
+            android:layout_marginLeft="10dp"
+            android:text="A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team. \nDirector: Alejandro G. Iñárritu \nStars: Leonardo DiCaprio, Tom Hardy, Will Poulter"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/ad4"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_below="@id/ad3i"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="4. One Penny (2017)"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/ad4i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/ad4"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/one_penny"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/ad4t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ad4"
+            android:layout_toRightOf="@id/ad4i"
+            android:layout_alignBottom="@id/ad4i"
+            android:layout_marginLeft="10dp"
+            android:text="A young boy - tragically abandoned - gets taken in and raised by a homeless man known as Professor Dylan, now a street-smart maverick yearns for a better future, but a dark secret could shatter his world forever. \nDirector: Michael DeVita \nStars: Harrison Samuels, Carson Grant, Ben Rezendes "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/ad5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5. Into The Wild (2007)"
+            android:layout_below="@id/ad4i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/ad5i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/ad5"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/into_the_wild"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/ad5t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ad5"
+            android:layout_toRightOf="@id/ad5i"
+            android:layout_alignBottom="@id/ad5i"
+            android:layout_marginLeft="10dp"
+            android:text="After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska to live in the wilderness. \nDirector: Sean Penn\nStars: Emile Hirsch, Vince Vaughn, Catherine Keener"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+</ScrollView>

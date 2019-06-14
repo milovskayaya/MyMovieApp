@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top 5 Animation Movies"
+            android:textStyle="bold"
+            android:textColor="#FF0040"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/an1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="23dp"
+            android:gravity="center"
+            android:text="1. The Lion King (1994)"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+
+            android:id="@+id/an1i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/an1"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/lion_king"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/an1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/an1"
+            android:layout_toRightOf="@id/an1i"
+            android:layout_alignBottom="@id/an1i"
+            android:layout_marginLeft="10dp"
+            android:text="A Lion cub crown prince is tricked by a treacherous uncle into thinking he caused his father's death and flees into exile in despair, only to learn in adulthood his identity and his responsibilities. \nDirectors: Roger Allers, Rob Minkoff\nStars: Matthew Broderick, Jeremy Irons, James Earl Jones"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/an2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2. Coco (2017)"
+            android:layout_below="@id/an1i"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp" />
+        <ImageView
+            android:id="@+id/an2i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/an2"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/coco"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/an2t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/an2"
+            android:layout_toRightOf="@id/an2i"
+            android:layout_alignBottom="@id/an2i"
+            android:layout_marginLeft="10dp"
+            android:text="Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.\nDirectors: Lee Unkrich, Adrian Molina (co-director) \nStars: Anthony Gonzalez, Gael García Bernal, Benjamin Bratt"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/an3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3. WALL·E (2008)"
+            android:layout_below="@id/an2i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/an3i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/an3"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:src="@drawable/walle" />
+        <TextView
+            android:id="@+id/an3t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/an3"
+            android:layout_toRightOf="@id/an3i"
+            android:layout_alignBottom="@id/an3i"
+            android:layout_marginLeft="10dp"
+            android:text="In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.\nDirector: Andrew Stanton\nStars: Ben Burtt, Elissa Knight, Jeff Garlin"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/an4"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_below="@id/an3i"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="4. Toy Story 3 (2010)"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/an4i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/an4"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/toy_story"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/an4t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/an4"
+            android:layout_toRightOf="@id/an4i"
+            android:layout_alignBottom="@id/an4i"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.\nDirector: Lee Unkrich\nStars: Tom Hanks, Tim Allen, Joan Cusack"
+            android:textColor="#000"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/an5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5. Inside Out (2015)"
+            android:layout_below="@id/an4i"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp" />
+        <ImageView
+            android:id="@+id/an5i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/an5"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/inside_out"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/an5t"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/an5"
+            android:layout_toRightOf="@id/an5i"
+            android:layout_alignBottom="@id/an5i"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school.\nDirectors: Pete Docter, Ronnie Del Carmen (co-director)\nStars: Amy Poehler, Bill Hader, Lewis Black"
+            android:textColor="#000"
+            android:textSize="15sp"/>
+
+
+    </RelativeLayout>
+</ScrollView>

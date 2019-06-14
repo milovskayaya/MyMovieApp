@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.movie">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".data.MovieApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.ToWatchListActivity"></activity>
+        <activity android:name=".activities.MovieDetailActivity" />
+        <activity android:name=".data.entities.Genres$Thriller_Genre" />
+        <activity android:name=".data.entities.Genres$Superhero_Genre" />
+        <activity android:name=".data.entities.Genres$Scifi_Genre" />
+        <activity android:name=".data.entities.Genres$Romance_Genre" />
+        <activity android:name=".activities.MovieSearcherActivity" />
+        <activity android:name=".activities.MovieDetailInformationActivity" />
+        <activity android:name=".data.entities.Genres$Horror_Genre" />
+        <activity android:name=".data.entities.Genres$Fantasy_Genre" />
+        <activity android:name=".data.entities.Genres$Drama_Genre" />
+        <activity android:name=".data.entities.Genres$Crime_Genre" />
+        <activity android:name=".data.entities.Genres$Comedy_Genre" />
+        <activity android:name=".data.entities.Genres$Animation_Genre" />
+        <activity android:name=".data.entities.Genres$Adventure_Genre" />
+        <activity android:name=".data.entities.Genres$Action_Genre" />
+        <activity android:name=".activities.MovieSearchListActivity" />
+        <activity android:name=".activities.TopMoviesActivity" />
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

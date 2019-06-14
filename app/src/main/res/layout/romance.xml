@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:context=".activities.MainActivity">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top 5 Romance Movies"
+            android:textStyle="bold"
+            android:textColor="#FF0040"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1. Titanic (1997)"
+            android:layout_below="@id/title"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/r1i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/r1"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/titanic"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/r1t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r1"
+            android:layout_toRightOf="@id/r1i"
+            android:layout_alignBottom="@id/r1i"
+            android:layout_marginLeft="10dp"
+            android:text="A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.\nDirector: James Cameron\nStars: Leonardo DiCaprio, Kate Winslet, Billy Zane "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="2. The Notebook (2004)"
+            android:layout_below="@id/r1i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/r2i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/r2"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/the_notebook"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/r2t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r2"
+            android:layout_toRightOf="@id/r2i"
+            android:layout_alignBottom="@id/r2i"
+            android:layout_marginLeft="10dp"
+            android:text="A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.\nDirector: Nick Cassavetes\nStars: Gena Rowlands, James Garner, Rachel McAdams"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3. Amelie (2001)"
+            android:layout_below="@id/r2i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/r3i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/r3"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/amelie"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/r3t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r3"
+            android:layout_toRightOf="@id/r3i"
+            android:layout_alignBottom="@id/r3i"
+            android:layout_marginLeft="10dp"
+            android:text="Amélie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love.\nDirector: Jean-Pierre Jeunet\nStars: Audrey Tautou, Mathieu Kassovitz, Rufus"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r3i"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="4. Pride And Prejudice (2005)"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/r4i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/r4"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/pride"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/r4t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r4"
+            android:layout_toRightOf="@id/r4i"
+            android:layout_alignBottom="@id/r4i"
+            android:layout_marginLeft="10dp"
+            android:text="Sparks fly when spirited Elizabeth Bennet meets single, rich, and proud Mr. Darcy. But Mr. Darcy reluctantly finds himself falling in love with a woman beneath his class. Can each overcome their own pride and prejudice?\nDirector: Joe Wright\nStars: Keira Knightley, Matthew Macfadyen, Brenda Blethyn "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5. Love, Rosie (2014)"
+            android:layout_below="@id/r4i"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:id="@+id/r5i"
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/r5"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/love_rosie"
+            android:layout_centerVertical="true"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/r5t"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/r5"
+            android:layout_toRightOf="@id/r5i"
+            android:layout_alignBottom="@id/r5i"
+            android:layout_marginLeft="10dp"
+            android:text="Rosie and Alex have been best friends since they were 5, so they couldn't possibly be right for one another...or could they? When it comes to love, life and making the right choices, these two are their own worst enemies.\nDirector: Christian Ditter\nStars: Lily Collins, Sam Claflin, Christian Cooke "
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"/>
+
+
+    </RelativeLayout>
+</ScrollView>
